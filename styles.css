@@ -1,0 +1,212 @@
+/* BASIC STYLES */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: var(--black, #121212);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* BASIC STYLES */
+
+/* FORM MOBILE STYLES */
+/* Мне лень */
+/* FORM MOBILE STYLES */
+
+/* FORM TABLET STYLES */
+/* Еще более лень */
+/* FORM TABLET STYLES */
+
+/* FORM PC STYLES */
+@media (min-width: 1440px) {
+  .container-alex {
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+    background: var(--black, #121212);
+    margin-top: 80px;
+    column-gap: 200px;
+  }
+
+  .form-container {
+    flex-wrap: wrap;
+    max-width: 480px;
+  }
+
+  .login-div {
+    max-width: 480px;
+    margin-bottom: 40px;
+  }
+
+  .sign {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+    margin-bottom: 20px;
+  }
+
+  .sign-color {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+
+  .sign-mes {
+    display: flex;
+    width: 420px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+    margin: 0;
+  }
+
+  .input-feedback {
+    display: flex;
+    width: 462px;
+    height: 60px;
+    background-color: transparent;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 18px;
+    color: #fff;
+    font-family: DM Sans;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+
+  .input-feedback-big {
+    height: 120px;
+  }
+
+  .input-feedback::placeholder {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+  }
+
+  .btn-div {
+    max-width: 480px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+  }
+
+  .btn-send {
+    width: 100%;
+    height: 60px;
+    color: var(--black, #121212);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+    border-radius: 12px;
+    background: var(--white, #fff);
+    margin: 0;
+    cursor: pointer;
+    border-color: #fff;;
+  }
+
+  .btn-send:hover {
+    color: #BEA69E;
+    background: #1D1D1D;
+    border-color: #1D1D1D;;
+  }
+
+  .prvc-div {
+    max-width: 480px;
+  }
+
+  .prvc-p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    margin: 0;
+  }
+
+  .prvc-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration-line: underline;
+    margin: 0;
+  }
+
+  .photos-container {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .photo-1 {
+    width: 190px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #bea69e;
+    margin-top: 252px;
+  }
+
+  .photo-2 {
+    width: 350px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #1d1d1d;
+  }
+
+  .img-1 {
+    width: 163px;
+    height: 154px;
+    padding-top: 35%;
+    padding-left: 8%;
+  }
+
+  .img-2 {
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    padding-top: 20%;
+    padding-left: 2%;
+  }
+}
+/* FORM PC STYLES */
